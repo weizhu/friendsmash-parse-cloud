@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Friends Smash with Parse": {
+            "applicationId": "<your-parse-app-id>"
+            "masterKey": "<your-parse-master-key>"
+        }, 
+        "_default": {
+            "link": "Friends Smash with Parse"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.8"
+    }
+}

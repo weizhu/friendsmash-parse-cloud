@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <% for(var k in ogProps) { %>
+      <meta property="<%= k %>"          content="<%= ogProps[k] %>" /> 
+    <% } %>
+  </head>
+  <body>
+    <p>Hello</p>
+    <p><%= ogProps['og:description'] %></p>
+    <img src="<%= ogProps['og:image'] %>" />
+  </body>
+</html>
