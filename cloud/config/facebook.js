@@ -1,11 +1,11 @@
 var root = '../';
 
 var options = {
-  appId: '167286716771766',
-  appSecret: 'ffc3f4f6db901fae64847c67ecfbaea9',
+  appId: <your faceboook app id>,
+  appSecret: <your facebook app secret>,
   scope: 'email',
-  appName: 'smashparse',
-  redirect_uri: 'http://friendsmash.parseapp.com/fblogin/'
+  appName: <your facebook app namespace>, // 'smashparse',
+  redirect_uri: <your facebook app redirect url>, //'http://friendsmash.parseapp.com/fblogin/'
 }
 
 

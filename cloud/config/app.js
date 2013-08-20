@@ -1,6 +1,5 @@
 
 
 module.exports = {
-  appDomain: 'friendsmash.parseapp.com',
-  
+  appDomain: <your app domain goes here> //'friendsmash.parseapp.com',
 };
